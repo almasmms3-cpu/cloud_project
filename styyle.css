@@ -1,0 +1,122 @@
+/* ===============================
+BACKGROم */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    background: url("C:\Users\almas2\Desktop\Qassim.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+/* ===============================
+   GENERAL PAGE CONTAINERS
+================================= */
+
+.container,
+.card,
+.container-dashboard {
+    max-width: 500px;
+    margin: 80px auto;
+    background: #ffffffdd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* ===============================
+   INPUTS & FORMS
+================================= */
+
+input[type="email"],
+input[type="password"],
+input[type="file"],
+input[type="text"],
+button,
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+}
+
+button,
+input[type="submit"] {
+    cursor: pointer;
+}
+
+
+/* ===============================
+   LINKS
+================================= */
+
+a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* ===============================
+   TABLE STYLING (Dashboard)
+================================= */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+td, th {
+    padding: 12px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+th {
+    background: #f0f0f0;
+}
+
+
+/* ===============================
+   BUTTONS FOR DASHBOARD TABLE
+================================= */
+
+.btn {
+    padding: 8px 14px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-success { background: #28a745; color: white; }
+.btn-danger  { background: #dc3545; color: white; }
+.btn-primary { background: #007bff; color: white; }
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+
+/* ===============================
+   NAVBAR (إذا كان موجود)
+================================= */
+
+.navbar {
+    width: 100%;
+    padding: 10px;
+    background: #ffffffdd;
+    text-align: right;
+}
+
+.navbar a {
+    margin-left: 15px;
+}
